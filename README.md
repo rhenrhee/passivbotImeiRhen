@@ -1,13 +1,16 @@
 ![Passivbot](docs/images/pbot_logo_full.svg)
 
-# Trading bot running on Bybit, Binance, OKX, Kucoin, Bitget, and BingX
+# Торговый робот, работающий на биржах Bybit, Binance, OKX, Kucoin, Bitget, and BingX
+# Данная версия носит альтернативную ветку разработки, локализована частично на русский язык и включает собственные конфигурации
 
-:warning: **Use at own risk** :warning:
+:warning: **Вы используете данный инструмент на свой страх и риск** :warning:
 
-v6.1.1
+Текущая версия v6.1.1 [RU] Внутреняя версия 1634.04052024.M
 
 
-## Overview
+## Вступительная часть
+
+Предупреждение: никогда не используйте данный инструмент для торговли чужими средствами, поскольку всегда есть риск их потери! Используя собственные денежные средства помните о том, что шанс увеличить их количество не редко тождественен риску их потерять. 
 
 Passivbot is a cryptocurrency trading bot written in Python, intended to require minimal user intervention.  
 It is observed that prices in a market will fluctuate up and down, creating opportunities for capitalizing on the noise.  
@@ -21,7 +24,7 @@ Also included is an optimizer, which finds better configurations by iterating th
 
 The strategy is integrated -- the bot only needs a predefined configuration to run.  
 
-## Controlling the bot
+## Управление роботом
 
 Passivbot is controlled via terminal commands.  
 To let Passivbot run on multiple markets simulatenously, use passivbot_multi (see docs/passivbot_multi.md)  
@@ -29,7 +32,7 @@ There is also an integrated manager for controlling multiple single symbol bots 
 There is also a script, forager.py, which uses tmux to manage multiple bot instances (see docs/forager.md).  
 See also https://github.com/msei99/pbgui/ for a web based passivbot GUI.  
 
-## Requirements
+## Требования к программному обеспечению
 
 - Python >= 3.8
 - [requirements.txt](requirements.txt) dependencies
